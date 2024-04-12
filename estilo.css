@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    background-image: url('https://img2.wallspic.com/previews/6/3/7/4/1/114736/114736-fuego-humo-graficos-x750.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255); /* Color de texto blanco */
+}
+
+.container {
+    text-align: center;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.0); /* Fondo transparente */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Ancho del formulario */
+    margin: center; /* Centrar el formulario */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white; /* Color de texto blanco */
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid transparent; /* Sin borde */
+    box-sizing: border-box;
+    background-color: rgba(253, 253, 253, 0.8); /* Fondo blanco con transparencia */
+    color: black; /* Color de texto negro */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.remember {
+    text-align: left; /* Alinear a la izquierda */
+    margin-bottom: 212px; /* Espacio inferior */
+    display: flex; /* Para alinear el checkbox a la izquierda */
+    align-items: 1000 auto; /* Para alinear el checkbox verticalmente */
+}
+
+.remember input[type="checkbox"] {
+    margin-right: 212px; /* Ajustar margen derecho del checkbox */
+}
+.remember {
+    text-align: left; /* Alinear a la izquierda */
+    margin-bottom: 10px; /* Espacio inferior */
+    display: flex; /* Para alinear el checkbox a la izquierda */
+    align-items: center; /* Para alinear el checkbox verticalmente */
+}
+/* Estilo del cuadro amarillo */
+.orange-box {
+    background-color: rgba(255, 115, 0, 0.568);
+    padding: 30px;
+    border-radius: 30px; /* Ajustar el radio de borde para hacerlo más redondeado */
+    margin-bottom: 30px;
+    text-align: center;
+    color: white; /* Color de texto blanco */
+    max-width: 100%; /* Ajustar el ancho máximo deseado */
+    margin: center; /* Centrar horizontalmente */
+}
+
+
